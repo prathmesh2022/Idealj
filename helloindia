@@ -1,0 +1,46 @@
+package com.company;
+class MyThreadRunnable1 implements Runnable{
+    public void run() {
+        System.out.println("Hello india");
+    }
+}
+class MyThreadRunnable2 implements Runnable{
+    public void run() {
+        System.out.println("Hello india");
+    }
+}
+class MyThreadRunnable3 implements Runnable{
+    public void run() {
+        System.out.println("Hello india");
+    }
+}
+class MyThreadRunnable4 implements Runnable{
+    public void run() {
+        System.out.println("Hello india");
+    }
+}
+class MyThreadRunnable5 implements Runnable{
+    public void run() {
+        System.out.println("Hello india");
+    }
+}
+
+public class running {
+    public static void main(String[] args){
+        MyThreadRunnable1 bullet1 = new MyThreadRunnable1();
+        Thread gun1 = new Thread(bullet1);
+        gun1.start();
+        MyThreadRunnable2 bullet2 = new MyThreadRunnable2();
+        Thread gun2 = new Thread(bullet2);
+        gun2.start();
+        MyThreadRunnable3 bullet3 = new MyThreadRunnable3();
+        Thread gun3 = new Thread(bullet3);
+        gun3.start();
+        MyThreadRunnable4 bullet4 = new MyThreadRunnable4();
+        Thread gun4 = new Thread(bullet4);
+        gun4.start();
+        MyThreadRunnable5 bullet5 = new MyThreadRunnable5();
+        Thread gun5 = new Thread(bullet5);
+        gun5.start();
+    }
+}
