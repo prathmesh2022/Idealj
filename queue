@@ -1,0 +1,16 @@
+import java.util.LinkedList;
+import java.util.Queue;
+package com.company;
+
+public class queue {
+    Queue<String> p = new LinkedList<String>();
+    p.add(1);
+    p.add(2);
+    p.add(3);
+    p.add(4);
+    p.add(5);
+    p.add(6);
+    System.out.println(p);
+    
+}
+}
